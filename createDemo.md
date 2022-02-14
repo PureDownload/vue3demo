@@ -180,6 +180,10 @@ app.mount('#app')
 Error: Cannot find module '@vue/cli-service/generator/template/src/App.vue'
 ~~~
 使用的是vite项目的话，不能使用vue-cli的语法
+~~~
+typescript找不到模块'vue' 'vue-router'
+~~~
+这是因为tsconfig.json里面的module属性不是为"commonjs",如果没有使用该选项的话，那么就需要将moduleResolution选项设置为node。
 
 #### 参考链接
 [vue3.0+vite+typescript入门到精通]:(https://blog.csdn.net/weixin_41308072/article/details/108994027)
