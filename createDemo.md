@@ -175,6 +175,21 @@ app.use(router)
 app.use(vuex)
 app.mount('#app')
 ~~~
+#### 引入jsx/tsx
+~~~ cmd
+npm i -D @vitejs/plugin-vue-jsx
+~~~
+配置vite.config.js
+~~~ javascript
+...
+import vueJsx from '@vitejs/plugin-vue-jsx';
+export default defineConfig({
+  plugins: [vueJsx(), ...],
+  ...
+})
+~~~
+解决vscode常见的几种报错
+
 #### 错误
 ~~~
 Error: Cannot find module '@vue/cli-service/generator/template/src/App.vue'
