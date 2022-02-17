@@ -1,0 +1,239 @@
+// $fontSize14: 10px;
+
+// $basic: 1.0rem;
+$basic: 0.5rem;
+$mobileFireBasic: 1.6vh;
+
+// 文字大小相关
+$fontSize10: $basic;
+$fontSize12: $basic * 1.2;
+$fontSize14: $basic * 1.4;
+$fontSize15: $basic * 1.5;
+$fontSize16: $basic * 1.6;
+$fontSize18: $basic * 1.8;
+$fontSize20: $basic * 2;
+$fontSize23: $basic * 2.3;
+$fontSize25: $basic * 2.5;
+$fontSize26: $basic * 2.6;
+$fontSize28: $basic * 2.8;
+$fontSize30: $basic * 3;
+$fontSize36: $basic * 3.6;
+$fontSize48: $basic * 4.8;
+$fontSize56: $basic * 5.6;
+$fontSize60: $basic * 6;
+$fontSize62: $basic * 6.2;
+$fontSize68: $basic * 6.8;
+
+
+// 像素大小相关
+$px1: $basic * .1;
+$px2: $basic * .2;
+$px3: $basic * .3;
+$px035: $basic * .35;
+$px4: $basic * .4;
+$px5: $basic * .5;
+$px6: $basic * .6;
+$px065: $basic * .65;
+$px7: $basic * .7;
+$px8: $basic * .8;
+$px9: $basic * .9;
+$px10: $basic;
+$px11: $basic * 1.1;
+$px12: $basic * 1.2;
+$px13: $basic * 1.3;
+$px14: $basic * 1.4;
+$px15: $basic * 1.5;
+$px16: $basic * 1.6;
+$px18: $basic * 1.8;
+$px19: $basic * 1.9;
+$px20: $basic * 2;
+$px21: $basic * 2.1;
+$px22: $basic * 2.2;
+$px23: $basic * 2.3;
+$px24: $basic * 2.4;
+$px25: $basic * 2.5;
+$px26: $basic * 2.6;
+$px28: $basic * 2.8;
+$px30: $basic * 3;
+$px32: $basic * 3.2;
+$px34: $basic * 3.4;
+$px35: $basic * 3.5;
+$px36: $basic * 3.6;
+$px38: $basic * 3.8;
+$px40: $basic * 4;
+$px42: $basic * 4.2;
+$px44: $basic * 4.4;
+$px45: $basic * 4.5;
+$px46: $basic * 4.6;
+$px48: $basic * 4.8;
+$px50: $basic * 5;
+$px52: $basic * 5.2;
+$px55: $basic * 5.5;
+$px56: $basic * 5.6;
+$px57: $basic * 5.7;
+$px60: $basic * 6;
+$px62: $basic * 6.2;
+$px64: $basic * 6.4;
+$px65: $basic * 6.5;
+$px68: $basic * 6.8;
+$px70: $basic * 7;
+$px72: $basic * 7.2;
+$px75: $basic * 7.5;
+$px80: $basic * 8;
+$px84: $basic * 8.4;
+$px90: $basic * 9;
+$px95: $basic * 9.5;
+$px100: $basic * 10;
+$px109: $basic * 10.9;
+$px110: $basic * 11;
+$px118: $basic * 11.8;
+$px120: $basic * 12;
+$px125: $basic * 12.5;
+$px130: $basic * 13;
+$px140: $basic * 14;
+$px150: $basic * 15;
+$px151: $basic * 15.1;
+$px170: $basic * 17;
+$px180: $basic * 18;
+$px200: $basic * 20;
+$px208: $basic * 20.8;
+$px220: $basic * 22;
+$px225: $basic * 22.5;
+$px230: $basic * 23;
+$px240: $basic * 24;
+$px250: $basic * 25;
+$px280: $basic * 28;
+$px300: $basic * 30;
+$px308: $basic * 30.8;
+$px320: $basic * 32;
+$px340: $basic * 34;
+$px350: $basic * 35;
+$px360: $basic * 36;
+$px370: $basic * 37;
+$px380: $basic * 38;
+$px400: $basic * 40;
+$px426: $basic * 42.6;
+$px440: $basic * 44;
+$px447: $basic * 44.7;
+$px450: $basic * 45;
+$px460: $basic * 46;
+$px495: $basic * 49.5;
+$px500: $basic * 50;
+$px540: $basic * 54;
+$px1950: $basic * 195;
+
+//* 负数
+$px-2: -($basic * 0.2);
+$px-7: -($basic * 0.7);
+$px-17: -($basic * 1.7);
+$px-20: -($basic * 2);
+
+$fontSS: $basic * 1.0;
+$fontXXXS: $basic * 1.2;
+$fontXXS: $basic * 1.4;
+$fontXS: $basic * 1.6;
+$fontS: $basic * 1.8;
+$fontM: $basic * 2.0;
+$fontL: $basic * 2.2;
+$fontXL: $basic * 2.4;
+$fontXXL: $basic * 2.8;
+$fontXXXL: $basic * 3;
+$fontXXXXL: $basic * 3.6;
+$fontLL: $basic * 4.8;
+$fontXLL: $basic * 6.0;
+
+// 基础颜色
+$color-primary: #94C7E2; // 主题色1(默认色)
+$color-theme: #36BEFB; // 主题色2
+$color-dacktheme: rgba(0,61,132,.95); // 主题色3(深色)
+$color-deeptheme: rgba(0,34,67,.95); // 主题色4(深色)
+$color-yellow: #FCCE46; //用于高亮
+$color-yellow1: #EDC800;
+$color-yellow2: #FACD91;
+$color-yellow3: #CAF982;
+$color-orange: #F59A23;
+$color-white: #FFFFFF;
+$color-white005: rgba(255,255,255,.05);
+$color-white02: rgba(255,255,255,.2);
+$color-white03: rgba(255,255,255,.3);
+$color-white05: rgba(255,255,255,.5);
+$color-white06: rgba(255,255,255,.6);
+$color-black: #000000;
+$color-black08: rgba(0,0,0,.8);
+$color-wathet: #80FFFF; // 浅蓝
+$color-blue1: #02A7F0;
+$color-blue2: #4FDDF6;
+$color-blue3: #c4d8fb;
+$color-blue4: #307eb4;
+$color-grey: #515f70;
+$color-grey1: #39495c;
+$color-grey2: #00BFBF; // 浅灰色
+$color-dark: #071b33;
+$color-red: #FF4949;
+$color-lucency: rgba(255,255,255,.0);
+$color-pink:#EC808D;
+$color-green:#70B603;
+$color-white-opacity:rgba(255,255,255,.2);
+
+
+
+
+
+
+
+// 字体大小相关
+$fontSubTitle: $fontXXS; //1080p,14px
+$fontContext: $fontXS; //1080p,16px
+$fontTitle: $fontS; //1080p,18px
+$fontLargeTitle: $fontXXL; //1080p,28px
+// 图标相关
+$fontIconXS: $fontXXXS;
+$fontIconS: $fontXXS;
+$fontIconM: $fontXL;
+$fontIconL: $fontXXXXL;
+
+// tooltip背景颜色
+$tooltip-common-bg: #314062;
+
+// 清空输入框样式
+// 使用： @include inputClear;
+@mixin inputClear {
+  outline: none;
+  border: 0;
+}
+
+@mixin tag($bcc: $primaryBccDim,
+  $fontSize: $fontSubTitle,
+  $color: $fontGray,
+  $padding: $gap_4,
+  $radius: $radius_4) {
+  font-size: $fontSize;
+  color: $color;
+  background-color: $bcc;
+  padding: $padding;
+  border-radius: $radius;
+}
+
+// tag背景颜色字体颜色类
+// -8的问题
+// tab公用class
+
+// 页面不可复制
+// 使用：* { @include canNotCopy; }
+@mixin canNotCopy {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.loadMore {
+  color: #409eff;
+  font-size: $fontSubTitle;
+  cursor: pointer;
+  text-align: center;
+  height: 2.4rem;
+  line-height: 2.4rem;
+}

@@ -199,7 +199,25 @@ Error: Cannot find module '@vue/cli-service/generator/template/src/App.vue'
 typescript找不到模块'vue' 'vue-router'
 ~~~
 这是因为tsconfig.json里面的module属性不是为"commonjs",如果没有使用该选项的话，那么就需要将moduleResolution选项设置为node。
-
+#### 引入scss
+使用npm命令引入依赖包
+~~~
+npm install sass --save
+npm install sass-loader --save-dev
+~~~
+如果需要使用全局变量
+vite.config.js
+~~~javascript
+css: {
+  // css预处理器
+  preprocessorOptions: {
+    scss: {
+      charset: false,
+      additionalData: '@import "./src/assets/style/global.scss";',
+    },
+  },
+},
+~~~
 #### 参考链接
 [vue3.0+vite+typescript入门到精通]:(https://blog.csdn.net/weixin_41308072/article/details/108994027)
 [element-plus-admin github]:(https://github.com/TheFirework/vue-element-plus-admin)

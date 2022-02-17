@@ -1,12 +1,11 @@
 <template>
-  <img alt="Vue logo" src="../assets/logo.png" />
   <HelloWorld ref="helloWorldEl" msg="Hello Vue 3.0 + Vite" />
   <div class="ref" :ref="setRef">1</div>
   <div class="ref" :ref="setRef">2</div>
 </template>
 
 <script lang="ts">
-import HelloWorld from '../components/HelloWorld.vue'
+import HelloWorld from '@/components/HelloWorld.vue'
 import { ref, onMounted, nextTick  } from 'vue'
 
 export default {

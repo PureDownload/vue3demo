@@ -1,0 +1,8 @@
+//* 皮肤方案 通过换class名的方式实现
+//* 换class名时同步修改变量
+//* 页面使用:
+//* 平常页面使用common-color-primary等通用变量
+//* 特殊需要不同皮肤换不同颜色的使用单独class(单独class会有一个默认颜色)
+@import './basic-theme.scss';
+@import './dark.scss';
+@import './default.scss';

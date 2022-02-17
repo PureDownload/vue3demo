@@ -3,9 +3,19 @@
 //* 存放router页面
 const routes: Array<any> = [
   {
-    path: "/ref",
+    path: "/",
     name: "index",
-    component: () => import('../view/Ref.vue'),
+    component: () => import('@/view/Index.vue'),
+    hidden: true,
+    meta: {
+      func_code: "det",
+      keepAlive: false,
+    },
+  },
+  {
+    path: "/ref",
+    name: "ref",
+    component: () => import('@/view/Ref.vue'),
     hidden: true,
     meta: {
       func_code: "det",
@@ -14,8 +24,8 @@ const routes: Array<any> = [
   },
   {
     path: "/tsx",
-    name: "index",
-    component: () => import('../view/Tsx.tsx'),
+    name: "tsx",
+    component: () => import('@/view/Tsx.tsx'),
     hidden: true,
     meta: {
       func_code: "det",
