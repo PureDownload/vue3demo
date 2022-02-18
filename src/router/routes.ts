@@ -6,31 +6,35 @@ const routes: Array<any> = [
     path: "/",
     name: "index",
     component: () => import('@/view/Index.vue'),
-    hidden: true,
-    meta: {
-      func_code: "det",
-      keepAlive: false,
-    },
+  },
+  {
+    path: "/admin",
+    name: "admin",
+    component: () => import('@/layout/admin/index.vue'),
+    redirect: '/admin/index',
+    children: [
+      {
+        path: "index",
+        name: "AdminIndex",
+        component: () => import('@/view/admin/index.vue'),
+      },
+      {
+        path: "index1",
+        name: "AdminIndex1",
+        hidden: true,
+        component: () => import('@/view/admin/index.vue'),
+      },
+    ]
   },
   {
     path: "/ref",
     name: "ref",
     component: () => import('@/view/Ref.vue'),
-    hidden: true,
-    meta: {
-      func_code: "det",
-      keepAlive: false,
-    },
   },
   {
     path: "/tsx",
     name: "tsx",
     component: () => import('@/view/Tsx.tsx'),
-    hidden: true,
-    meta: {
-      func_code: "det",
-      keepAlive: false,
-    },
   },
 ];
 
