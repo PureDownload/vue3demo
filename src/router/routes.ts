@@ -17,12 +17,14 @@ const routes: Array<any> = [
         path: "index",
         name: "AdminIndex",
         component: () => import('@/view/admin/index.vue'),
+        meta: { title: '首页' }
       },
       {
         path: "index1",
         name: "AdminIndex1",
-        hidden: true,
+        hidden: false,
         component: () => import('@/view/admin/index.vue'),
+        meta: { title: '测试' }
       },
     ]
   },

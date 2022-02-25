@@ -1,12 +1,14 @@
 <template>
-    <div class="sidebar">
+    <div class="sidebar c-h-100p t-sidebar-back-color">
+        <logo />
        <SidebarItem v-for="route in adminRoutes" :key="route.name" :item="route" /> 
     </div>
 </template>
 <script setup>
 //* 导航栏
 //* 组件导入
-import SidebarItem from './SidebarItem.vue'
+import Logo from './logo.vue'
+import SidebarItem from './SidebarItem.vue' //* 每一个item
 //* 官方API导入
 import { useRouter } from 'vue-router'
 import { reactive, watch } from 'vue'
@@ -20,9 +22,8 @@ const getAdminRoutes = (routes) => { //* 获取后台管理所有路由 过滤�
     for(let i = 0;i < routes.length;i++) {
         const route = routes[i]
         if(route.name === 'admin') {
-            console.log(route)
             adminRoutes = route.children.filter((route) => {
-                return !route.hidden
+                return !route.hidden && route.meta
             })
         }
     }
@@ -31,12 +32,11 @@ const getAdminRoutes = (routes) => { //* 获取后台管理所有路由 过滤�
 
 watch(routers, () => { //* 监听路由
     adminRoutes = reactive(getAdminRoutes(routers.getRoutes()))
-    console.log(adminRoutes, 'adminRoutes', routers)
 
 },{ immediate: true, deep: true })
 </script>
 <style lang="scss" scoped>
 .sidebar {
-
+    width: 200px;
 }
 </style>

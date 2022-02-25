@@ -1,195 +1,195 @@
 // 通用css
-.common-position-relative {
+.c-position-relative {
   position: relative;
 }
-.common-position-absolute {
+.c-position-absolute {
   position: absolute;
 }
 
-.common-display-none {
+.c-display-none {
   display: none;
 }
-.common-display-inline {
+.c-display-inline {
   display: inline;
 }
-.common-display-inline-block {
+.c-display-inline-block {
   display: inline-block;
 }
 
-.common-flex {
+.c-flex {
   display: flex !important;
 }
 
-.common-flex-1 {
+.c-flex-1 {
   flex: 1;
 }
-.common-flex-2 {
+.c-flex-2 {
   flex: 2;
 }
-.common-shrink-0 {
+.c-shrink-0 {
   flex-shrink: 0;
 }
 
-.common-flex-center {
+.c-flex-center {
   justify-content: center !important;
   align-items: center !important;
 }
 
-.common-flex-wrap {
+.c-flex-wrap {
   flex-wrap: wrap !important;
 }
 
-.common-flex-items-start {
+.c-flex-items-start {
   align-items: flex-start !important;
 }
 
-.common-flex-items-center {
+.c-flex-items-center {
   align-items: center !important;
 }
 
-.common-flex-items-end {
+.c-flex-items-end {
   align-items: flex-end !important;
 }
 
-.common-flex-content-between {
+.c-flex-content-between {
   align-content: space-between !important;
 }
-.common-flex-content-center {
+.c-flex-content-center {
   align-content: center !important;
 }
 
-.common-flex-self-center {
+.c-flex-self-center {
   align-self: center !important;
 }
 
-.common-flex-direction-column {
+.c-flex-direction-column {
   flex-direction: column !important;
 }
 
-.common-flex-justify-end {
+.c-flex-justify-end {
   justify-content: flex-end !important;
 }
 
-.common-flex-justify-around {
+.c-flex-justify-around {
   justify-content: space-around;
 }
 
-.common-flex-justify-between {
+.c-flex-justify-between {
   justify-content: space-between !important;
 }
 
-.common-flex-justify-center {
+.c-flex-justify-center {
   justify-content: center !important;
 }
 
 // inline-block
-.common-inline-block {
+.c-inline-block {
   display: inline-block;
 }
 
-.common-margin-center {
+.c-margin-center {
   margin: 0 auto;
 }
 
 // grid 功能
-.common-grid {
+.c-grid {
   display: grid;
 }
 
-.common-grid-auto-rows {
+.c-grid-auto-rows {
   grid-auto-rows: auto;
 }
 
-.common-grid-row-2-fr {
+.c-grid-row-2-fr {
   grid-template-columns: repeat(2, 1fr);
 }
-.common-grid-row-4-fr {
+.c-grid-row-4-fr {
   grid-template-columns: repeat(4, 1fr);
 }
 
-.common-grid-row-5-fr {
+.c-grid-row-5-fr {
   grid-template-columns: repeat(5, 1fr);
 }
 
-.common-grid-row-7-fr {
+.c-grid-row-7-fr {
   grid-template-columns: repeat(7, 1fr);
 }
 
-.common-grid-row-9-fr {
+.c-grid-row-9-fr {
   grid-template-columns: repeat(9, 1fr);
 }
 
-.common-grid-auto-flow-row {
+.c-grid-auto-flow-row {
   grid-auto-flow: row;
 }
 
-.common-grid-gap-10 {
+.c-grid-gap-10 {
   grid-gap: 10px;
 }
 
-.common-grid-gap-12 {
+.c-grid-gap-12 {
   grid-gap: 12px;
 }
 
-.common-grid-gap-20 {
+.c-grid-gap-20 {
   grid-gap: 20px;
 }
 
-.common-grid-gap-40 {
+.c-grid-gap-40 {
   grid-gap: 40px;
 }
 
-.common-grid-gap-60 {
+.c-grid-gap-60 {
   grid-gap: 60px;
 }
 
-.common-grid-gap-70 {
+.c-grid-gap-70 {
   grid-gap: 70px;
 }
 
-.common-grid-gap-10-20 {
+.c-grid-gap-10-20 {
   grid-gap: 10px 20px;
 }
 
-.common-grid-gap-20-40 {
+.c-grid-gap-20-40 {
   grid-gap: 20px 40px;
 }
 
-.common-grid-gap-40-60 {
+.c-grid-gap-40-60 {
   grid-gap: 40px 60px;
 }
 
-.common-grid-gap-30-60 {
+.c-grid-gap-30-60 {
   grid-gap: 30px 60px;
 }
 
 //* font-family相关
-.common-font-family {
+.c-font-family {
   font-family: "Bahnschrift Condensed", "Bahnschrift", sans-serif;
 }
-.common-font-family-currency {
+.c-font-family-currency {
   //货币格式字体
   font-family: "Bahnschrift", sans-serif;
 }
-.common-font-family-wryh {
+.c-font-family-wryh {
   //微软雅黑
   font-family: "微软雅黑 Bold", "微软雅黑 Regular", "微软雅黑", sans-serif;
 }
-.common-font-family-hyzyt {
+.c-font-family-hyzyt {
   // 汉仪综艺体简
   font-family: "汉仪综艺体简 Bold Oblique", "汉仪综艺体简 Bold", "汉仪综艺体简 regular", "汉仪综艺体简", sans-serif;
 }
 
 //* font-style相关
-.common-font-style-oblique {
+.c-font-style-oblique {
   font-style: oblique;
 }
 
 //* overflow相关
-.common-overflow-hidden {
+.c-overflow-hidden {
   overflow: hidden;
 }
-.common-overflow-auto {
+.c-overflow-auto {
   overflow: auto;
   &::-webkit-scrollbar {
     display: none; /* Chrome Safari */
@@ -197,49 +197,49 @@
 }
 
 //* text-align相关
-.common-text-align-center {
+.c-text-align-center {
   text-align: center;
 }
-.common-text-align-right {
+.c-text-align-right {
   text-align: right;
 }
 
 //* cursor相关
-.common-cursor-pointer {
+.c-cursor-pointer {
   cursor: pointer; //* 鼠标可选中样式
 }
 
 //* transform
-.common-transform-rotate-90 {
+.c-transform-rotate-90 {
   transform: rotate(90deg);
 }
-.common-transform-rotate-180 {
+.c-transform-rotate-180 {
   transform: rotate(180deg);
 }
 
 //* text-overflow
-.common-text-overflow-nowrap-ellipsis {
+.c-text-overflow-nowrap-ellipsis {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-.common-opacity-20 {
+.c-opacity-20 {
   opacity: 0.2;
 }
-.common-opacity-40 {
+.c-opacity-40 {
   opacity: 0.4;
 }
-.common-opacity-50 {
+.c-opacity-50 {
   opacity: 0.5;
 }
-.common-opacity-80 {
+.c-opacity-80 {
   opacity: 0.8;
 }
 
-.common-box-sizing {
+.c-box-sizing {
   box-sizing: border-box;
 }
-.common-vertical-align {
+.c-vertical-align {
   vertical-align: middle;
 }

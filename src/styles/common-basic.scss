@@ -1,7 +1,37 @@
 //* 目录
 //* 1. whdth相关
+//* 2. height相关
+//* 3. fontSize相关
 
-.common-h-w-100h {
+.c-h-w-100h {
     width: 100vw;
     height: 100vh;
+}
+
+//* height相关
+.c-h-100vh {
+    height: 100vh;
+}
+.c-h-100p {
+    height: 100%;
+}
+.c-h-30 {
+    height: 30px;
+}
+.c-h-40 {
+    height: 40px;
+}
+.c-h-50 {
+    height: 50px;
+}
+.c-h-60 {
+    height: 60px;
+}
+
+//* fontSize相关
+.c-fs-12 {
+    font-size: 12px;
+}
+.c-fs-14 {
+    font-size: 14px;
 }

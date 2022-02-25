@@ -1,10 +1,10 @@
 <template>
-    <div class="admin-layout common-flex common-h-w-100h">
+    <div class="admin-layout default-theme c-flex c-h-w-100h">
         <Sidebar />
-        <div class="right-main common-flex-1 common-flex common-flex-direction-column">
+        <div class="right-main c-flex-1 c-flex c-flex-direction-column">
             <Navbar />
             <TagsView />
-            <AppMain class="common-flex-1" />
+            <AppMain class="c-flex-1" />
         </div>
     </div>
 </template>

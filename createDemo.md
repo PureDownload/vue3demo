@@ -218,6 +218,24 @@ css: {
   },
 },
 ~~~
+#### 引入element-plus
+命令
+~~~
+npm install element-plus --save
+~~~
+main.js
+~~~ js
+// main.ts
+import { createApp } from 'vue'
+import ElementPlus from 'element-plus'
+import 'element-plus/dist/index.css'
+import App from './App.vue'
+
+const app = createApp(App)
+
+app.use(ElementPlus)
+app.mount('#app')
+~~~
 #### 参考链接
 [vue3.0+vite+typescript入门到精通]:(https://blog.csdn.net/weixin_41308072/article/details/108994027)
 [element-plus-admin github]:(https://github.com/TheFirework/vue-element-plus-admin)
